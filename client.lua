@@ -5,7 +5,7 @@ Citizen.CreateThread(function()
 	end
 end)
 
-AddEventHandler("playerSpawned", function(spawn)
+AddEventHandler("onClientMapStart", function()
   ESX.Scaleform.ShowFreemodeMessage('~r~Coloque o título aqui', '~w~Coloque o subtitulo aqui', 2)
 end)
 
