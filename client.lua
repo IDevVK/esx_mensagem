@@ -6,5 +6,6 @@ Citizen.CreateThread(function()
 end)
 
 AddEventHandler("playerSpawned", function(spawn)
-  ESX.Scaleform.ShowFreemodeMessage('~r~VIKINGS CITY', '~w~Bem-vindo a Vikings City', 2)
+  ESX.Scaleform.ShowFreemodeMessage('~r~Coloque o título aqui', '~w~Coloque o subtitulo aqui', 2)
 end)
+
