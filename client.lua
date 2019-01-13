@@ -7,5 +7,6 @@ end)
 
 AddEventHandler("onClientMapStart", function()
   ESX.Scaleform.ShowFreemodeMessage('~r~Coloque o título aqui', '~w~Coloque o subtitulo aqui', 2)
+  ESX.ShowAdvancedNotification('Título', 'Sub-titulo', 'Mensagem!', 'CHAR_AMANDA', 8)
 end)
 
